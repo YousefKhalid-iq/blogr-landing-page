@@ -4,6 +4,196 @@
   box-sizing: border-box;
 }
 
+main {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.header-section {
+  background: linear-gradient(90deg, hsl(13, 100%, 72%) 0%, hsl(353, 100%, 62%) 100%);
+  width: 100%;
+  padding-top: 5%;
+}
+
+.header-flex {
+  display: flex;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.logo-img {
+  width: 20%;
+  display: block;
+  padding-top: 6%;
+  margin-left: 5%;
+}
+
+.toggle-on-cont {
+  text-align: right;
+  padding-top: 7%;
+  margin-left: 54%;
+  width: 20%;
+}
+
+.toggle-off-cont {
+  text-align: right;
+  padding-top: 6%;
+}
+
+.close-icon {
+  cursor: pointer;
+  background: transparent;
+  border-width: 0;
+}
+
+.toggle-on {
+  cursor: pointer;
+  background: transparent;
+  border-width: 0; 
+}
+
+.toggle-on:hover {
+  opacity: 0.5;
+}
+
+.toggle-off {
+  cursor: pointer;
+  background: transparent;
+  border-width: 0;
+  position: relative;
+}
+
+.toggle-off:hover {
+  opacity: 0.5;
+}
+
+.menu-container {
+  font-family: 'Overpass', sans-serif;
+  font-size: 2rem;
+  background-color: hsl(0, 0%, 100%);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.product-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.product-btn {
+  background: transparent;
+  border-width: 0;
+  cursor: pointer;
+  font-family: 'Overpass', sans-serif;
+  font-size: 2rem;
+  margin: 0 auto;
+  font-weight: 600;
+  margin-bottom: 5%;
+  color: hsl(208, 49%, 24%);
+
+}
+
+#product-links {
+  background-color: hsl(0, 0%, 92%);
+  border-radius: 0.5rem;
+  margin-bottom: 10%;
+}
+
+.product-section a {
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: hsl(207, 13%, 34%);
+  font-size: 1.5rem;
+  display: list-item;
+  list-style: none;
+  padding: 5% 0;
+  width: 50%;
+}
+
+.company-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+}
+
+.company-btn {
+  font-family: 'Overpass', sans-serif;
+  font-size: 2rem;
+  background: transparent;
+  border-width: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: hsl(208, 49%, 24%);
+  padding-bottom: 5%;
+  margin: 0 auto;
+}
+
+#company-links {
+  background-color: hsl(0, 0%, 92%);
+  border-radius: 0.5rem;
+  margin-bottom: 10%;
+}
+
+.company-section a {
+  text-decoration: none;
+  color: hsl(207, 13%, 34%);
+  font-size: 1.5rem;
+  padding: 5% 0;
+  display: list-item;
+  list-style: none;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.connect-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 10%;
+}
+
+.connect-btn {
+  font-family: 'Overpass', sans-serif;
+  font-size: 2rem;
+  background: transparent;
+  border-width: 0;
+  cursor: pointer;
+  font-weight: 600;
+  padding-bottom: 10%;
+  color: hsl(208, 49%, 24%);
+  margin: 0 auto;
+}
+
+#connect-links {
+  background-color: hsl(0, 0%, 92%);
+  border-radius: 0.5rem;
+  
+}
+
+.connect-section a {
+  text-decoration: none;
+  color: hsl(207, 13%, 34%);
+  font-size: 1.5rem;
+  display: list-item;
+  list-style: none;
+  padding: 5% 0;
+  margin: 0 auto;
+  width: 50%;
+}
+
+
 
 .attribution { 
   font-size: 11px; text-align: center; 
