@@ -16,94 +16,108 @@
 <body>
   <main>
   <section class="header-section">
-    <div class="header-flex">
-      <img role="presentation" alt="" class="logo-img" src="images/logo.svg">
-      <div class="toggle-on-cont">
-        <button class="toggle-on">
-          <img role="presentation" alt="" src="images/icon-hamburger.svg">
+    <div class="background-img-cont">   
+      <div class="header-flex">
+        <img role="presentation" alt="" class="logo-img" src="images/logo.svg">
+        <div class="toggle-on-cont">
+          <button class="toggle-on">
+            <img role="presentation" alt="" src="images/icon-hamburger.svg">
+          </button>
+        </div>
+        <div class="toggle-off-cont">
+          <button class="toggle-off">
+            <img role="presentation" alt="" class="close-icon" src="images/icon-close.svg">
+          </button>
+        </div>
+      </div> 
+      <div class="menu-container">
+        <div class="product-section"> 
+          <button  onclick="show_hide_product()" id="product-btn">
+            Product
+            <img role="presentation" alt="" id="open-arrow-product" src="images/icon-arrow-dark.svg">
+          </button>
+          <div id="product-links">
+            <a href="#">
+              Overview
+            </a>
+            <a href="#">
+              Pricing
+            </a>
+            <a href="#">
+              Marketplace
+            </a>
+            <a href="#">
+              Features
+            </a>
+            <a href="#">
+              Integrations
+            </a>
+          </div>
+        </div>
+        <div class="company-section">
+          <button onclick="show_hide_company()" id="company-btn">
+            Company
+            <img role="presentation" alt="" id="open-arrow-company" src="images/icon-arrow-dark.svg">
+          </button>
+          <div id="company-links">
+            <a href="#">
+              About
+            </a>
+            <a href="#">
+              Team
+            </a>
+            <a href="#">
+              Blog
+            </a>
+            <a href="#">
+              Careers
+            </a>
+          </div>
+        </div>
+        <div class="connect-section">
+          <button onclick="show_hide_connect()" id="connect-btn">
+            Connect
+            <img role="presentation" alt="" id="open-arrow-connect" src="images/icon-arrow-dark.svg">
+          </button>
+          <div id="connect-links">
+            <a href="#">
+              Contact
+            </a>
+            <a href="#">
+              Newsletter
+            </a>
+            <a href="#">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <div class="login-signup-buttons">
+        <button class="login-btn">
+          Login
         </button>
-      </div>
-      <div class="toggle-off-cont">
-        <button class="toggle-off">
-          <img role="presentation" alt="" class="close-icon" src="images/icon-close.svg">
+        <br>
+        <button class="signup-btn">
+          Sign Up
         </button>
-      </div>
-    </div> 
-    <div class="menu-container">
-      <div class="product-section"> 
-        <button  onclick="show_hide_product()" class="product-btn">
-          Product
-          <img role="presentation" alt="" class="open-arrow" src="images/icon-arrow-dark.svg">
-          <img src="images/icon-arrow-light.svg">
-        </button>
-        <div id="product-links">
-          <a href="#">
-            Overview
-          </a>
-          <a href="#">
-            Pricing
-          </a>
-          <a href="#">
-            Marketplace
-          </a>
-          <a href="#">
-            Features
-          </a>
-          <a href="#">
-            Integrations
-          </a>
         </div>
       </div>
-      <div class="company-section">
-        <button onclick="show_hide_company()" class="company-btn">
-          Company
-          <img role="presentation" alt="" class="open-arrow" src="images/icon-arrow-dark.svg">
-        </button>
-        <div id="company-links">
-          <a href="#">
-            About
-          </a>
-          <a href="#">
-            Team
-          </a>
-          <a href="#">
-            Blog
-          </a>
-          <a href="#">
-            Careers
-          </a>
-        </div>
+      <div class="headers">
+        <h1>
+          A modern publishing platform
+        </h1>
+        <h2>
+          Grow your audience and build your online brand
+        </h2>
       </div>
-      <div class="connect-section">
-        <button onclick="show_hide_connect()" class="connect-btn">
-          Connect
-          <img role="presentation" alt="" class="open-arrow" src="images/icon-arrow-dark.svg">
+      <div class="sub-header-btn">
+        <button class="free-btn">
+          Start for Free
         </button>
-        <div id="connect-links">
-          <a href="#">
-            Contact
-          </a>
-          <a href="#">
-            Newsletter
-          </a>
-          <a href="#">
-            LinkedIn
-          </a>
-        </div>
+        <button class="learn-more-btn">
+          Learn More
+        </button>
       </div>
-      <button>
-        Login
-      </button>
-      <button>
-        Sign Up
-      </button>
     </div>
-    <h1>
-      A modern publishing platform
-      Grow your audience and build your online brand
-    </h1>
-    Start for Free
-    Learn More
   </section>
 
   Designed for the future
