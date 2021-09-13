@@ -36,12 +36,14 @@ function show_hide_product() {
 	if (product==1) {
 		document.getElementById("product-links").style.display="none";
 		document.getElementById("open-arrow-product").style.transform="rotate(0deg)";
+		document.getElementById("open-arrow-product2").style.transform="rotate(0deg)";
 		return product=0;
 	}
 
 	else {
 		document.getElementById("product-links").style.display="block";
 		document.getElementById("open-arrow-product").style.transform="rotate(180deg)";
+		document.getElementById("open-arrow-product2").style.transform="rotate(180deg)";
 		return product=1;
 	}		
 }
@@ -50,12 +52,14 @@ function show_hide_company() {
 	if (company==1) {
 		document.getElementById("company-links").style.display="none";
 		document.getElementById("open-arrow-company").style.transform="rotate(0deg)";
+		document.getElementById("open-arrow-company2").style.transform="rotate(0deg)";
 		return company=0;
 	}
 
 	else {
 		document.getElementById("company-links").style.display="block";
 		document.getElementById("open-arrow-company").style.transform="rotate(180deg)";
+		document.getElementById("open-arrow-company2").style.transform="rotate(180deg)";
 		return company=1;
 	}
 }
@@ -64,12 +68,14 @@ function show_hide_connect() {
 	if (connect==1) {
 		document.getElementById("connect-links").style.display="none";
 		document.getElementById("open-arrow-connect").style.transform="rotate(0deg)";
+		document.getElementById("open-arrow-connect2").style.transform="rotate(0deg)";
 		return connect=0;
 	}
 
 	else {
 		document.getElementById("connect-links").style.display="block";
 		document.getElementById("open-arrow-connect").style.transform="rotate(180deg)";
+		document.getElementById("open-arrow-connect2").style.transform="rotate(180deg)";
 		return connect=1;
 	}
 }
