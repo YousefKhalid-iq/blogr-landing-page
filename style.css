@@ -1121,6 +1121,10 @@ h1 {
   }
 }
 
+.attribution {
+  color: hsl(0, 0%, 100%);
+}
+
 .attribution a { 
   color: hsl(240, 2%, 79%);
   text-decoration: none; 
